@@ -1,4 +1,4 @@
-## Chrono
+## Birdwatcherza
 
 ### Project Setup and Collaboration using Git
 
@@ -82,5 +82,3 @@ This will retrieve the latest changes and merge them into your current branch.
 
 - [Git Documentation](https://git-scm.com/doc)
 - [GitHub Guides](https://guides.github.com/)
-
-### Conclusion

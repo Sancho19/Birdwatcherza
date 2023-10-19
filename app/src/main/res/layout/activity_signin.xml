@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/txtBirdwatcher"
@@ -24,8 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="829dp"
         android:gravity="center"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -50,7 +48,7 @@
             android:inputType="textPersonName"
             android:padding="10dp"
             android:textColor="#FF000000"
-            android:textColorHint="@color/material_dynamic_neutral30" />
+            />
 
         <EditText
             android:id="@+id/etxtPassword"
@@ -60,10 +58,11 @@
             android:background="@drawable/textview_shape"
             android:drawablePadding="5dp"
             android:hint="Password"
+
             android:inputType="textPersonName"
             android:padding="10dp"
             android:textColor="#FF000000"
-            android:textColorHint="@color/material_dynamic_neutral30" />
+            />
 
         <Button
             android:id="@+id/btnLogin"

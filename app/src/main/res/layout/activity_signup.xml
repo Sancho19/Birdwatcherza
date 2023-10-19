@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/txtBirdwatcher"
@@ -24,8 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="829dp"
         android:gravity="center"
-        android:orientation="vertical"
-        tools:context=".MainActivity">
+        android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
@@ -88,7 +86,7 @@
 
 
         <TextView
-            android:id="@+id/tvSignup"
+            android:id="@+id/tvSignin"
             android:layout_width="wrap_content"
             android:layout_height="37dp"
             android:text="Already have an account? Sign In"
